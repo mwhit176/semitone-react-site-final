@@ -30,7 +30,7 @@ const ShopItem = () => {
             <iframe
                 width="340px"
                 height="235px"
-                src={"https://www.youtube.com/embed/dQw4w9WgXcQ"}
+                src={"https://www.youtube.com/embed/8coGnmehnZs"}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

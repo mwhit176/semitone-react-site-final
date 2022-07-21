@@ -31,7 +31,7 @@ const RentalItem = () => {
                 <iframe
                     width="340px"
                     height="235px"
-                    src={"https://www.youtube.com/embed/y6120QOlsfU"}
+                    src={"https://www.youtube.com/embed/QcIp7K2UFgE"}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
