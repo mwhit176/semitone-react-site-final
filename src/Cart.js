@@ -1,5 +1,6 @@
 import "./styles/cart.css"
 import { Helmet } from 'react-helmet';
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -32,10 +33,11 @@ const Cart = () => {
             <h1>Tax: $XX.XX</h1>
             <h1>Grand Total: $XX.XX</h1>
           </div>
-          {/* button disabled for now */}
-          <button className="checkout">
-            <h2>Check Out!</h2>
-          </button>
+          <Link to="/PurchaseConf">
+            <button className="checkout">
+              <h2>Check Out!</h2>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

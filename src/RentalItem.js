@@ -6,7 +6,7 @@ import "./styles/shopitem.css"
 const RentalItem = () => {
 
     const alert = useAlert()
-    
+
     return (
         <div className="shop-item">
             <Helmet>
@@ -41,7 +41,7 @@ const RentalItem = () => {
                             <img src="https://via.placeholder.com/100x100" alt="item" />
                             <Link to="/Rentals">
                                 <button className="add-to-cart-button" onClick={() => {
-                                    alert.show('Successfully added to cart!')
+                                    alert.show(<div style={{ color: 'white'}}>Successfully Added to Cart!</div>)
                                     }}>Add to cart</button>
                             </Link>
                         </div>

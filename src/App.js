@@ -5,6 +5,7 @@ import About from './About';
 import Book from './Book';
 import BookConf from './BookConf';
 import Cart from './Cart';
+import PurchaseConf from './PurchaseConf';
 import Rentals from './Rentals';
 import RentalItem from './RentalItem';
 import Repairs from './Repairs';
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <Route path="/Cart">
               <Cart />
+            </Route>
+            <Route path="/PurchaseConf">
+              <PurchaseConf />
             </Route>
             <Route path="/Rentals">
               <Rentals />
