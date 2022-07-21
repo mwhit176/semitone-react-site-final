@@ -1,0 +1,17 @@
+
+.support-button {
+    padding: 10px 0;
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    justify-content: center;
+    cursor: pointer;
+    right: 200px;
+    bottom: 40px;
+    background-color: cornflowerblue;
+}
+
+.support-button p {
+    font-weight: bold;
+    font-size: 24px;
+}

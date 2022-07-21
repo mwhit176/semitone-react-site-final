@@ -1,0 +1,41 @@
+
+.bottombar {
+    padding: 20px 300px;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    bottom: 0;
+    background-color: whitesmoke;
+}
+
+.bottombar-info {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-left: auto;
+}
+
+.info-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-top p {
+    margin: 5px 50px;
+}
+
+.info-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-bottom p {
+    margin: 5px 50px;
+}
+
+.bottombar-logo {
+    height: 81px;
+    width: 81px;
+    padding-right: 20px;
+}

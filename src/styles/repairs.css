@@ -1,0 +1,69 @@
+
+.repairs {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 550px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.instrument-calendar {
+    padding: 20px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 200px;
+    height: 500px;
+    text-align: left;
+    border: 1px solid;
+}
+
+.instrument-calendar h2 {
+  margin-bottom: 10px;
+}
+
+.instrument-selection {
+  width: 200px;
+  height: 100px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+.calendar-repairs {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    border: 1px solid;
+}
+
+.repairs-list {
+  padding: 20px;
+  margin: 0 20px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 900px;
+  height: 500px;
+  border: 1px solid;
+  overflow: auto;
+}
+
+.repair-item-box {
+  margin: 20px;
+  padding: 15px;
+  max-height: 145px;
+  border: 2px solid;
+}
+
+.repair-item-box:hover {
+  box-shadow: 0 0 1rem 0.25rem rgba(0, 0, 0, 0.15);
+}

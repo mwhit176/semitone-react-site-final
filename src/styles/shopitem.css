@@ -1,0 +1,133 @@
+
+.shop-item {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 550px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.shop-item-subcategories {
+    padding: 20px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 200px;
+    height: 500px;
+    text-align: left;
+    border: 1px solid;
+}
+
+.shop-center {
+  border: 1px solid;
+  width: 900px;
+}
+
+.shop-center-top {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+.shop-center-top img {
+  width: 360px;
+  height: 220px;
+}
+
+.shop-item-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: flex-start;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.add-to-cart-button {
+  background-color: cornflowerblue;
+  margin: 20px 20px;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-add-to-cart {
+  display: flex;
+}
+
+.selector-rental {
+  margin-top:40px;
+}
+
+.shop-center-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 20px;
+}
+
+.format-aid-div {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.shop-item-description {
+  margin-left: 20px;
+  border: 1px solid;
+}
+
+.music-sample {
+  margin-top:60px;
+}
+
+
+
+.shop-item-filters {
+  padding: 20px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 120px;
+    height: 500px;
+    text-align: left;
+    border: 1px solid;
+}
+
+.shop-item-sort-by {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  gap: 30px;
+  height: 300px;
+}
+
+.shop-item-sort-by h2 {
+  text-align: center;
+}
+
+.shop-item-sort-by p {
+  text-align: left;
+  margin: 20px 10px;
+}
+
+.shop-item-price-range {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  gap: 30px;
+  height: 150px;
+}

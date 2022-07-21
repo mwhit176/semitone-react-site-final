@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Comic Sans";
+  color: #333;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+/* main app */
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+}

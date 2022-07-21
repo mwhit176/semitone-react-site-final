@@ -1,0 +1,24 @@
+
+.area {
+    padding: 20px 300px 20px 300px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 81px;
+    width: 81px;
+    padding-right: 20px;
+}
+
+.cart-section {
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+.cart-icon {
+    height: 42px;
+    width: 42px;
+}
