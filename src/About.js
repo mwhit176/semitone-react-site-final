@@ -1,14 +1,18 @@
+import React, {useContext} from 'react';
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import { LangContext } from './LangContext';
+import STRINGS from "./strings/AboutStrings"
 import "./styles/about.css"
 
 const About = () => {
+  const {langBit} = useContext(LangContext);
   return (
     <div className="about"> 
       <Helmet>
-        <title>About | Semitone Musical Instruments and Repairs</title>
+        <title>{STRINGS.TITLE[langBit]}</title>
       </Helmet>
-      <h1>About Semitone</h1>
+      <h1>{STRINGS.TITLE_HEADER[langBit]}</h1>
       <div className="body-content">
         <div className="about-scrollpane">
           <p className="about-paragraph">
@@ -16,12 +20,12 @@ const About = () => {
           </p>
         </div>
         <div className="info-pane">
-          <h3>Phone Number</h3>
-          <h3>Street Address</h3>
-          <h3>Email Address</h3>
-          <h3>Hours of Operation</h3>
+          <h3>{STRINGS.PHONE[langBit]}</h3>
+          <h3>{STRINGS.STREET[langBit]}</h3>
+          <h3>{STRINGS.EMAIL[langBit]}</h3>
+          <h3>{STRINGS.HOURS[langBit]}</h3>
           <Link to="/Terms">
-            <h3>Terms and Conditions</h3>
+            <h3>{STRINGS.TERMS[langBit]}</h3>
           </Link>
         </div>
       </div>

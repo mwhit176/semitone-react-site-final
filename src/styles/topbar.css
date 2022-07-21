@@ -12,6 +12,18 @@
     padding-right: 20px;
 }
 
+.lang-section {
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+.lang-section button {
+    width: 300px;
+    height: 75px;
+    font-size: 24px;
+}
+
 .cart-section {
     margin-left: auto;
     align-items: center;
