@@ -1,8 +1,12 @@
 import "./styles/cart.css"
+import { Helmet } from 'react-helmet';
 
 const Cart = () => {
   return (
     <div className="cart"> 
+      <Helmet>
+        <title>Cart | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
     {/* Possibly add an image of a cart here? */}
       <div className="cart-icon-and-text">
         <img className="cart-icon" src={ require('./imgs/cart.png') } alt="cart" />

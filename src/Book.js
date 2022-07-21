@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import Calendar from "react-calendar";
 import "./styles/book.css"
 
 const Book = () => {
   return (
     <div className="book">
+      <Helmet>
+        <title>Book | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <div className="left-side">
         <h2>Appointment Type:</h2>
         <p>o Instrument Demo</p>

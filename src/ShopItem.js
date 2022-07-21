@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./styles/shopitem.css"
 
 const ShopItem = () => {
 
   return (
     <div className="shop-item">
+      <Helmet>
+        <title>Shop Item | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <div className="shop-item-subcategories">
         <h2>Buy Subcategories:</h2>
         <p>Lorem, ipsum.</p>

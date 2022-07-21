@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./styles/about.css"
 
 const About = () => {
   return (
     <div className="about"> 
+      <Helmet>
+        <title>About | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <h1>About Semitone</h1>
       <div className="body-content">
         <div className="about-scrollpane">

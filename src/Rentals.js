@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./styles/rentals.css"
 
 const Rentals = () => {
@@ -17,6 +18,9 @@ const Rentals = () => {
 
   return (
     <div className="rentals">
+      <Helmet>
+        <title>Rentals | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <div className="rentals-subcategories">
         <h2>Rent Subcategories:</h2>
         <p>Lorem, ipsum.</p>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./styles/repairs.css"
 import Calendar from "react-calendar";
 
@@ -19,6 +20,9 @@ const Repairs = () => {
 
   return (
     <div className="repairs">
+      <Helmet>
+        <title>Repairs | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <div className="instrument-calendar">
         <div className="instrument-selection">
           <h2>Select your Instrument:</h2>

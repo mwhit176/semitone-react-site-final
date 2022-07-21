@@ -1,8 +1,12 @@
 import "./styles/terms.css"
+import { Helmet } from 'react-helmet';
 
 const Terms = () => {
   return (
-    <div className="terms"> 
+    <div className="terms">
+      <Helmet>
+        <title>Terms and Conditions | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <h1>Terms and Conditions</h1>
       <div className="terms-scrollpane">
         <p className="terms-paragraph">

@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./styles/home.css"
 
 const Home = () => {
   return (
     <div className="home">
+      <Helmet>
+        <title>Home | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <div className="home-top-half">
         <Link to="/Shop">
           <img className="promo-guitar-image" src={ require('./imgs/guitars.jpg') } alt="guitars" />

@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import "./styles/bookconf.css"
 
 const BookConf = () => {
   return (
     <div className="booking-confirmation"> 
+      <Helmet>
+        <title>Confirm Booking | Semitone Musical Instruments and Repairs</title>
+      </Helmet>
       <h1>Booking Confirmation</h1>
       <div className="booking-details">
         <h2>Review the details of your booking:</h2>
