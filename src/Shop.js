@@ -73,6 +73,7 @@ const Shop = () => {
               id="brand-name"
               value=""
               name="shop-sort"
+              defaultChecked="true"
               type="radio"
             />
             Brand Name

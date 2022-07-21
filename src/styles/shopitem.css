@@ -83,6 +83,7 @@
 }
 
 .shop-item-description {
+  padding-top: 20px;
   margin-left: 20px;
   border: 1px solid;
 }
@@ -91,6 +92,9 @@
   margin-top:60px;
 }
 
+.music-sample-rental {
+  margin-top:20px;
+}
 
 
 .shop-item-filters {

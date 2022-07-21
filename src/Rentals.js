@@ -73,6 +73,7 @@ const Rentals = () => {
               id="brand-name"
               value=""
               name="rentals-sort"
+              defaultChecked="true"
               type="radio"
             />
             Brand Name

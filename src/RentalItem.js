@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import { useAlert } from 'react-alert'
+import ReactAudioPlayer from 'react-audio-player';
 import "./styles/shopitem.css"
 
 const RentalItem = () => {
@@ -26,7 +27,17 @@ const RentalItem = () => {
 
             <div className="shop-center">
                 <div className="shop-center-top">
-                    <img src="https://via.placeholder.com/200x200" alt="item" />
+
+                <iframe
+                    width="340px"
+                    height="235px"
+                    src={"https://www.youtube.com/embed/y6120QOlsfU"}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="Embedded youtube"
+                />
+
                     <div className="shop-item-info">
                         <h2>Brand</h2>
                         <h3>Item Name</h3>
@@ -51,8 +62,12 @@ const RentalItem = () => {
                             <option value="2 months">2 months</option>
                             <option value="3 months">3 months</option>
                         </select>
-                        <div className="music-sample">
-                            Click here to listen to an audio sample!
+                        <div className="music-sample-rental">
+                            <p>Listen to an audio sample!</p>
+                            <ReactAudioPlayer
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Reveille_on_bugle.ogg"
+                                controls
+                            />
                         </div>
                     </div>
                     <div className="shop-item-description">
@@ -90,6 +105,7 @@ const RentalItem = () => {
                             id="brand-name"
                             value=""
                             name="shop-item-sort"
+                            defaultChecked="true"
                             type="radio"
                         />
                         Brand Name

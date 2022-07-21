@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import { useAlert } from 'react-alert'
+import ReactAudioPlayer from 'react-audio-player';
 import "./styles/shopitem.css"
 
 const ShopItem = () => {
@@ -26,7 +27,15 @@ const ShopItem = () => {
 
       <div className="shop-center">
         <div className="shop-center-top">
-          <img src="https://via.placeholder.com/200x200" alt="item" />
+            <iframe
+                width="340px"
+                height="235px"
+                src={"https://www.youtube.com/embed/dQw4w9WgXcQ"}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+            />
           <div className="shop-item-info">
             <h2>Brand</h2>
             <h3>Item Name</h3>
@@ -46,7 +55,11 @@ const ShopItem = () => {
               </Link>
             </div>
             <div className="music-sample">
-              Click here to listen to an audio sample!
+              <p>Listen to an audio sample!</p>
+              <ReactAudioPlayer
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electric_guitar_lick_in_the_style_of_Chuck_Berry.wav"
+                controls
+              />
             </div>
           </div>
           <div className="shop-item-description">
@@ -83,6 +96,7 @@ const ShopItem = () => {
             <input
               id="brand-name"
               value=""
+              defaultChecked="true"
               name="shop-item-sort"
               type="radio"
             />
