@@ -108,7 +108,7 @@ const RentalItem = () => {
                             defaultChecked="true"
                             type="radio"
                         />
-                        Brand Name
+                        Instrument Name
                     </div>
                     <div>
                         <input

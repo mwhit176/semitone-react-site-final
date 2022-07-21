@@ -100,7 +100,7 @@ const ShopItem = () => {
               name="shop-item-sort"
               type="radio"
             />
-            Brand Name
+            Instrument Name
           </div>
           <div>
             <input

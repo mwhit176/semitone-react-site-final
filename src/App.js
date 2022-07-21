@@ -19,7 +19,7 @@ import { LangContext } from './LangContext';
 import { useState } from 'react';
 
 function App() {
-  const [langBit, setLang] =  useState("0");
+  const [langBit, setLang] = useState("0");
 
   return (
     <LangContext.Provider value={{langBit, setLang}}>
