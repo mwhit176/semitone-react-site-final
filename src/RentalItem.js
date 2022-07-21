@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import { useAlert } from 'react-alert'
 import "./styles/shopitem.css"
 
 const RentalItem = () => {
 
+    const alert = useAlert()
+    
     return (
         <div className="shop-item">
             <Helmet>
@@ -36,8 +39,10 @@ const RentalItem = () => {
                     <div className="format-aid-div">
                         <div className="container-add-to-cart">
                             <img src="https://via.placeholder.com/100x100" alt="item" />
-                            <Link to="/Cart">
-                                <button className="add-to-cart-button">Add to cart</button>
+                            <Link to="/Rentals">
+                                <button className="add-to-cart-button" onClick={() => {
+                                    alert.show('Successfully added to cart!')
+                                    }}>Add to cart</button>
                             </Link>
                         </div>
                         <select className="selector-rental">

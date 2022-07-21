@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import { useAlert } from 'react-alert'
 import "./styles/shopitem.css"
 
 const ShopItem = () => {
+
+  const alert = useAlert()
 
   return (
     <div className="shop-item">
@@ -36,8 +39,10 @@ const ShopItem = () => {
           <div className="format-aid-div">
             <div className="container-add-to-cart">
               <img src="https://via.placeholder.com/100x100" alt="item" />
-              <Link to="/Cart">
-                <button className="add-to-cart-button">Add to cart</button>
+              <Link to="/Shop">
+                <button className="add-to-cart-button" onClick={() => {
+                  alert.show(<div style={{ color: 'white'}}>Successfully Added to Cart!</div>)
+                  }}>Add to cart</button>
               </Link>
             </div>
             <div className="music-sample">
