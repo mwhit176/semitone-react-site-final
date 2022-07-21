@@ -36,7 +36,8 @@
 .rentals-item-box {
   margin: 20px;
   padding: 15px;
-  max-height: 145px;
+  max-width: 100px;
+  max-height: 160px;
   border: 2px solid;
 }
 

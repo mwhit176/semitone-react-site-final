@@ -3,18 +3,18 @@ import { Helmet } from 'react-helmet';
 import "./styles/shop.css"
 
 const Shop = () => {
-  const shopItemList = [{ id: 123, name: "guitar", price: "449.99", image: "https://via.placeholder.com/100x100" },
-  { id: 124, name: "drums", price: "979.99", image: "https://via.placeholder.com/100x100" },
-  { id: 114, name: "drums2", price: "9449.99", image: "https://via.placeholder.com/100x100" },
-  { id: 224, name: "drums3", price: "949.99", image: "https://via.placeholder.com/100x100" },
-  { id: 324, name: "drums4", price: "949.98", image: "https://via.placeholder.com/100x100" },
-  { id: 424, name: "drums5", price: "945.99", image: "https://via.placeholder.com/100x100" },
-  { id: 524, name: "drums6", price: "939.99", image: "https://via.placeholder.com/100x100" },
-  { id: 624, name: "drums7", price: "949.99", image: "https://via.placeholder.com/100x100" },
-  { id: 724, name: "drums8", price: "349.99", image: "https://via.placeholder.com/100x100" },
-  { id: 824, name: "drums9", price: "949.99", image: "https://via.placeholder.com/100x100" },
-  { id: 924, name: "drums0", price: "19.99", image: "https://via.placeholder.com/100x100" },
-  { id: 126, name: "tuba", price: "350.00", image: "https://via.placeholder.com/100x100" }];
+  const shopItemList = [{ id: 123, name: "Guitar 1", price: "449.99", image: "https://via.placeholder.com/100x100" },
+  { id: 124, name: "Guitar 2", price: "979.99", image: "https://via.placeholder.com/100x100" },
+  { id: 114, name: "Guitar 3", price: "9449.99", image: "https://via.placeholder.com/100x100" },
+  { id: 224, name: "Guitar 4", price: "949.99", image: "https://via.placeholder.com/100x100" },
+  { id: 324, name: "Guitar 5", price: "949.98", image: "https://via.placeholder.com/100x100" },
+  { id: 424, name: "Amplifier 1", price: "945.99", image: "https://via.placeholder.com/100x100" },
+  { id: 524, name: "Amplifier 2", price: "939.99", image: "https://via.placeholder.com/100x100" },
+  { id: 624, name: "Amplifier 3", price: "949.99", image: "https://via.placeholder.com/100x100" },
+  { id: 724, name: "Amplifier 4", price: "349.99", image: "https://via.placeholder.com/100x100" },
+  { id: 824, name: "Trumpet", price: "949.99", image: "https://via.placeholder.com/100x100" },
+  { id: 924, name: "Trombone", price: "19.99", image: "https://via.placeholder.com/100x100" },
+  { id: 126, name: "Drumset", price: "350.00", image: "https://via.placeholder.com/100x100" }];
 
   return (
     <div className="shop">

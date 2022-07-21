@@ -39,11 +39,12 @@
 }
 
 .calendar-repairs {
-    display: flex;
-    width: 200px;
-    height: 200px;
-    text-align: left;
-    border: 1px solid;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
 }
 
 .repairs-list {
@@ -60,7 +61,8 @@
 .repair-item-box {
   margin: 20px;
   padding: 15px;
-  max-height: 145px;
+  max-width: 100px;
+  max-height: 160px;
   border: 2px solid;
 }
 
