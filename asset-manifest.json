@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/semitone-react-site-final/static/css/main.55255030.css",
-    "main.js": "/semitone-react-site-final/static/js/main.5ae58d4a.js",
+    "main.css": "/semitone-react-site-final/static/css/main.37f916e9.css",
+    "main.js": "/semitone-react-site-final/static/js/main.cee914d4.js",
     "static/media/guitars.jpg": "/semitone-react-site-final/static/media/guitars.45842f40fcabaa002356.jpg",
     "static/media/cart.png": "/semitone-react-site-final/static/media/cart.7961bf5655006c6019cc.png",
     "static/media/strat.jpg": "/semitone-react-site-final/static/media/strat.27e3edaad1f34ce0be41.jpg",
     "static/media/home.png": "/semitone-react-site-final/static/media/home.a5717fb83631fa64742e.png",
     "index.html": "/semitone-react-site-final/index.html",
-    "main.55255030.css.map": "/semitone-react-site-final/static/css/main.55255030.css.map",
-    "main.5ae58d4a.js.map": "/semitone-react-site-final/static/js/main.5ae58d4a.js.map"
+    "main.37f916e9.css.map": "/semitone-react-site-final/static/css/main.37f916e9.css.map",
+    "main.cee914d4.js.map": "/semitone-react-site-final/static/js/main.cee914d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.55255030.css",
-    "static/js/main.5ae58d4a.js"
+    "static/css/main.37f916e9.css",
+    "static/js/main.cee914d4.js"
   ]
 }
